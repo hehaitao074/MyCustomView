@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f45494A"
+    android:orientation="vertical" >
+
+    <com.example.mycustomview.PageTurnView
+        android:id="@+id/pageTurnView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--
+    <com.example.mycustomview.SimpleTagImageView
+        xmlns:simple="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/stiv"
+        android:layout_width="256dip"
+        android:layout_height="192dip"
+        android:layout_margin="18dip"
+        android:src="@drawable/qwer"
+        simple:simple_corner_distance="30dp"
+        simple:simple_tag_background_color="#af27CDC0"
+        simple:simple_tag_enable="true"
+        simple:simple_tag_orientation="left_bottom"
+        simple:simple_tag_round_radius="20dp"
+        simple:simple_tag_text="AB"
+        simple:simple_tag_textColor="@android:color/white"
+        simple:simple_tag_textSize="18sp"
+        simple:simple_tag_width="30dip" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <SeekBar
+                    android:id="@+id/sb_text_size"
+                    android:max="40"
+                    android:progress="18" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TextSize" />
+            </TableRow>
+
+            <TableRow>
+
+                <SeekBar
+                    android:id="@+id/sb_corner_distance"
+                    android:max="100"
+                    android:progress="30" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="cornerDistance" />
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner_text_color"
+                    android:layout_height="30dip"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TextColor" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/tv"
+                    android:layout_weight="2"
+                    android:hint="Tag Content..." />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TagText" />
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner_background_color"
+                    android:layout_height="30dip"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="BackgroundColor" />
+            </TableRow>
+
+            <TableRow>
+
+                <SeekBar
+                    android:id="@+id/sb_tag_width"
+                    android:max="60"
+                    android:progress="20" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TagWidth" />
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner_tag_orientation"
+                    android:layout_height="30dip"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TagOrientation" />
+            </TableRow>
+
+            <TableRow>
+
+                <SeekBar
+                    android:id="@+id/sb_tag_round_radius"
+                    android:max="40"
+                    android:progress="20" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TagRoundRadius" />
+            </TableRow>
+
+          
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner_tag_scale_type"
+                    android:layout_height="30dip"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="ScaleType(When set round radius)" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>-->
+
+</LinearLayout>
